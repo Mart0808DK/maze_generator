@@ -1,6 +1,6 @@
 {
-    "rows": 4,
-    "cols": 4,
+    "rows": 6,
+    "cols": 7,
     "maze": [
         [
             {
@@ -9,7 +9,7 @@
                 "north": true,
                 "east": false,
                 "west": true,
-                "south": true
+                "south": false
             },
             {
                 "row": 0,
@@ -17,7 +17,7 @@
                 "north": true,
                 "east": false,
                 "west": false,
-                "south": false
+                "south": true
             },
             {
                 "row": 0,
@@ -30,6 +30,88 @@
             {
                 "row": 0,
                 "col": 3,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 0,
+                "col": 4,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": true
+            },
+            {
+                "row": 0,
+                "col": 5,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 0,
+                "col": 6,
+                "north": true,
+                "east": true,
+                "west": false,
+                "south": true
+            }
+        ],
+        [
+            {
+                "row": 1,
+                "col": 0,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 1,
+                "col": 1,
+                "north": true,
+                "east": true,
+                "west": false,
+                "south": true
+            },
+            {
+                "row": 1,
+                "col": 2,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 1,
+                "col": 3,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 1,
+                "col": 4,
+                "north": true,
+                "east": true,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 1,
+                "col": 5,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 1,
+                "col": 6,
                 "north": true,
                 "east": true,
                 "west": false,
@@ -38,23 +120,23 @@
         ],
         [
             {
-                "row": 1,
+                "row": 2,
                 "col": 0,
-                "north": true,
+                "north": false,
                 "east": false,
                 "west": true,
                 "south": false
             },
             {
-                "row": 1,
+                "row": 2,
                 "col": 1,
-                "north": false,
+                "north": true,
                 "east": true,
                 "west": false,
                 "south": false
             },
             {
-                "row": 1,
+                "row": 2,
                 "col": 2,
                 "north": false,
                 "east": true,
@@ -62,45 +144,35 @@
                 "south": true
             },
             {
-                "row": 1,
-                "col": 3,
-                "north": false,
-                "east": true,
-                "west": true,
-                "south": false
-            }
-        ],
-        [
-            {
-                "row": 2,
-                "col": 0,
-                "north": false,
-                "east": true,
-                "west": true,
-                "south": false
-            },
-            {
-                "row": 2,
-                "col": 1,
-                "north": false,
-                "east": true,
-                "west": true,
-                "south": false
-            },
-            {
-                "row": 2,
-                "col": 2,
-                "north": true,
-                "east": false,
-                "west": true,
-                "south": false
-            },
-            {
                 "row": 2,
                 "col": 3,
                 "north": false,
                 "east": true,
-                "west": false,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 2,
+                "col": 4,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 2,
+                "col": 5,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 2,
+                "col": 6,
+                "north": false,
+                "east": true,
+                "west": true,
                 "south": false
             }
         ],
@@ -111,18 +183,76 @@
                 "north": false,
                 "east": true,
                 "west": true,
-                "south": true
+                "south": false
             },
             {
                 "row": 3,
                 "col": 1,
                 "north": false,
-                "east": true,
+                "east": false,
                 "west": true,
+                "south": false
+            },
+            {
+                "row": 3,
+                "col": 2,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 3,
+                "col": 3,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 3,
+                "col": 4,
+                "north": true,
+                "east": true,
+                "west": false,
                 "south": true
             },
             {
                 "row": 3,
+                "col": 5,
+                "north": true,
+                "east": false,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 3,
+                "col": 6,
+                "north": false,
+                "east": true,
+                "west": false,
+                "south": false
+            }
+        ],
+        [
+            {
+                "row": 4,
+                "col": 0,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 4,
+                "col": 1,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 4,
                 "col": 2,
                 "north": false,
                 "east": true,
@@ -130,11 +260,93 @@
                 "south": true
             },
             {
-                "row": 3,
+                "row": 4,
+                "col": 3,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": false
+            },
+            {
+                "row": 4,
+                "col": 4,
+                "north": true,
+                "east": true,
+                "west": false,
+                "south": false
+            },
+            {
+                "row": 4,
+                "col": 5,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 4,
+                "col": 6,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": true
+            }
+        ],
+        [
+            {
+                "row": 5,
+                "col": 0,
+                "north": false,
+                "east": true,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 5,
+                "col": 1,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 5,
+                "col": 2,
+                "north": true,
+                "east": true,
+                "west": false,
+                "south": true
+            },
+            {
+                "row": 5,
                 "col": 3,
                 "north": false,
                 "east": true,
                 "west": true,
+                "south": true
+            },
+            {
+                "row": 5,
+                "col": 4,
+                "north": false,
+                "east": false,
+                "west": true,
+                "south": true
+            },
+            {
+                "row": 5,
+                "col": 5,
+                "north": true,
+                "east": false,
+                "west": false,
+                "south": true
+            },
+            {
+                "row": 5,
+                "col": 6,
+                "north": true,
+                "east": true,
+                "west": false,
                 "south": true
             }
         ]
@@ -144,7 +356,7 @@
         "col": 0
     },
     "goal": {
-        "row": 1,
-        "col": 3
+        "row": 3,
+        "col": 6
     }
 }

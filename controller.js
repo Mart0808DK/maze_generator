@@ -60,7 +60,7 @@ function KruskalAlgorithm(grid) {
 }
 
 function SideWinder(grid) {
-    for (let row = 0; row < grid.rows - 1; row++) {
+    for (let row = 0; row < grid.rows; row++) {
         let run = [];
         for (let col = 0; col < grid.cols; col++) {
             run.push(grid.get(row, col));
@@ -80,17 +80,11 @@ function SideWinder(grid) {
         }
     }
 
-    // Handle the last row
-    for (let col = 0; col < grid.cols; col++) {
-        if (grid.get(grid.rows - 1, col).north) {
-            grid.removeWall(grid.rows - 1, col, "north");
-        }
-    }
 }
 
 function gridToJson(grid) {
     const mazeToJson = grid.toJSON();
     mazeToJson.start = { row: 0, col: 0 };
-    mazeToJson.goal = { row: 1, col: 3 };
+    mazeToJson.goal = { row: 3, col: 6 };
     console.log(JSON.stringify(mazeToJson, null, 2));
 }
